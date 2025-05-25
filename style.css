@@ -1,0 +1,146 @@
+body {
+  background-image: url("back2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.marquee {
+  color: #ffd700;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.logo-img {
+  width: 60px;
+  object-fit: cover;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: aliceblue;
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.corner-nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.corner-nav button {
+  margin-left: 10px;
+  background-color: red;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.corner-nav button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.corner-nav button:hover {
+  background-color: rgb(34, 180, 34);
+}
+
+.navi {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navi a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.navi a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+.content-row {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.side {
+  width: 20%;
+  padding: 10px;
+  color: #ccc;
+  margin: 0 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.side:hover {
+  color: #000000;
+  background-color: rgba(236, 225, 225, 0.5);
+}
+
+.middle-column {
+  width: 50%;
+  padding: 10px;
+  color: #edeaee;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  text-align: center;
+  font-size: 150%;
+  padding: 10px;
+}
+
+table tr:hover {
+  background-color: rgba(205, 180, 180, 0.726);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ccc;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #00bfff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
