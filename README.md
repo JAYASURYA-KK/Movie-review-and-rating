@@ -46,6 +46,9 @@ Before installing, ensure you have:
 - XAMPP (Apache + MySQL + PHP)
 - Web browser (Chrome, Firefox, Safari, etc.)
 - Text editor (optional, for modifications)
+  ### Homepage (`index.php`
+
+![Homepage](screenshot/home.png)
 
 ## 🚀 Installation Guide
 
